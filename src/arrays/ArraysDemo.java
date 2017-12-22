@@ -41,22 +41,8 @@ public class ArraysDemo {
 //		for (int i = 0; i < len1; i++) {
 //			System.out.println(myIntArray1[i]);    // print ascending order
 //		}
-			int[] numss={3 ,5};
-		  System.out.println(frontPiece(numss));
-		  frontPiece(numss);
-	}
-		public static int[] frontPiece(int[] nums) {
-			  
-			  if((nums.length)>=2){
-			   return nums[0], nums[1]
-			  }else if(nums.length==1){
-			    int[] array={nums[0]};
-			    return array;
-			  }else{
-			    int[]arr={};
-			    return arr;
-			  }}
-			  
+			
+		}
 			  
 		// System.arraycopy(src, srcPos, dest, destPos, length);
 	}

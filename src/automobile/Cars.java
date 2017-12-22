@@ -2,7 +2,7 @@ package automobile;
 
 public class Cars {
 	// No Modifier accessible
-	int speed;
+	public int speed;
 	// only in class
 	private int privateSpeed;
 	// anywhere in Java with importing package and class
